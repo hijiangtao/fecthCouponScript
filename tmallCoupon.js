@@ -1,5 +1,5 @@
 /**
- * Created by Jiang on 2015/10/15.
+ * Created by Joe Jiang on 2015/10/15.
  */
 var fetchTmall = function() {
     /* Origin Contributor: @ianisme https://www.v2ex.com/member/ianisme */
