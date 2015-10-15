@@ -1,6 +1,8 @@
 /**
  * Created by Joe Jiang on 2015/10/15.
  */
+var judPro = 0;
+
 var fetchTmall = function() {
     /* Origin Contributor: @ianisme https://www.v2ex.com/member/ianisme */
     (function(window, document) {
@@ -11,6 +13,7 @@ var fetchTmall = function() {
         var getCoupon = function() {
             if (index >= couponLinks.length) {
                 console.log("领取完毕");
+                judPro = 1;
                 return;
             }
             var coponLink = couponLinks[index];
@@ -40,3 +43,16 @@ var fetchTmall = function() {
 };
 
 fetchTmall();
+
+setInterval(function() {
+    //update data
+    if (judPro) {
+        console.log('页面刷新读取新优惠券中...');
+
+        window.location.reload();
+        judPro = 0;
+        fetchTmall();
+    }
+    
+}, 6000);
+
