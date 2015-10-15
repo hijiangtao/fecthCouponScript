@@ -1,4 +1,4 @@
-##USAGE
+##tmallCoupon.js USAGE
 
 * **Requirement: Chrome browser or other browser can provide the DevTools**
 * Login into the Tmall with your own account, and open the page <http://www.tmall.com/wow/act/14931/1111> (登陆你的淘宝账号，并打开如上链接页面);

@@ -1,5 +1,5 @@
 /**
- * Created by Joe Jiang on 2015/10/15.
+ * Created by Joe Jiang on 2015/10/15. Modified from @ianisme
  */
 var judPro = 0;
 
@@ -47,11 +47,8 @@ fetchTmall();
 setInterval(function() {
     //update data
     if (judPro) {
-        console.log('页面刷新读取新优惠券中...');
-
+        alert('页面刷新中，请在刷新完毕后重新粘贴代码进行新一轮的优惠券领取操作！');
         window.location.reload();
-        judPro = 0;
-        fetchTmall();
     }
     
 }, 6000);
