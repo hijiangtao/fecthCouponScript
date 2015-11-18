@@ -1,4 +1,22 @@
-##tmallCoupon.js USAGE
+##LinkedIn USAGE
+
+* PATH: /LinkedIn
+* There are 2 files in the LinkedIn file, people list fetching script and person detail fetching script, there is also a demo xls file for showing the data format of the result.xls file that would be used in Alumni-Detail-Fetch-LinkedIn.py, which is also the export file of Alumni-Info-Fetch-LinkedIn.py.
+* The current script is designed for BIT Alumni fetching, you can change the school ID in py file and customize for your specific aim.
+* As I know, you should let the fetching account to be the admin account of the school you want to fetch (It may change as time goes by, the policy is useful in Jan, 2015).
+* The script is wrote in Jan, 2015.
+
+----
+
+##tmall 11.11 Festival script
+
+* PATH: /tmall
+
+###tmallVoucherCoupon.js USAGE
+
+* the same as tmallCoupon.js
+
+###tmallCoupon.js USAGE
 
 * **Requirement: Chrome browser or other browser can provide the DevTools**
 * Login into the Tmall with your own account, and open the page <http://www.tmall.com/wow/act/14931/1111> (登陆你的淘宝账号，并打开如上链接页面);
@@ -7,3 +25,13 @@
 * Press enter and run the code, waiting for the results (回车，运行代码，等待结果).
 
 **Origin Contributor**: [@ianisme](https://www.v2ex.com/member/ianisme)
+
+----
+
+##CONTACT
+
+* Useful questiones and bugs report are weclomed, you can contact me with email. The address can be found in my GITHUB page, as well as in my [blog](http://hijiangtao.github.io/).
+
+Joe Jiang
+
+2015.11
